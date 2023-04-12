@@ -3,6 +3,19 @@
 <img src="docs/lead.png" width="800"> 
 
 
+## Dependencies
+
+This is additional dependencies, adopted from the colab notebook
+
+```bash
+pip install transformers==4.20.1
+pip install opencv-python
+pip install nltk
+pip install inflect
+pip install scipy
+pip install pycocotools
+```
+
 ## Updates
 * 01/17/2023: From image understanding to image generation for open-set grounding? Check out [**GLIGEN (Grounded Language-to-Image Generation)**](https://gligen.github.io/)
   - GLIGEN:  (box, concept) $\rightarrow$ image  ||  GLIP:    image $\rightarrow$ (box, concept)
